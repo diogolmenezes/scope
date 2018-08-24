@@ -8,7 +8,7 @@ One of best uses of scope is to share information on request lifecicle.
 
 Install scope js
 
-`npm i scope-js --save`
+`npm i js-scope --save`
 
 All classes that extends Scope class will share all the scope information.
 

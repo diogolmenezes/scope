@@ -1,5 +1,5 @@
 {
-  "name": "scope-js",
+  "name": "js-scope",
   "version": "1.0.0",
   "description": "ScopeJs is a js lib that creates an scope to share information between objects. One of best uses of scope is to share information on request lifecicle..",
   "keywords": [
