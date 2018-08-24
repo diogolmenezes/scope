@@ -1,4 +1,4 @@
-class BaseClass {
+class Scope {
     addScope(value) {
         this.scope = this.scope || { _chain: [] };
                        
@@ -12,7 +12,7 @@ class BaseClass {
         
         if (!itsInTheChain) {            
             // varre todas as propriedades que herdam de BaseClass e repassa o escopo
-            const scopableProperties = Object.keys(this).filter(x => this[x] instanceof BaseClass);
+            const scopableProperties = Object.keys(this).filter(x => this[x] instanceof Scope);
 
             scopableProperties.map(property => {
                 this[property].scope = this.scope;
@@ -28,4 +28,4 @@ class BaseClass {
     }
 }
 
-module.exports = BaseClass;
+module.exports = Scope;

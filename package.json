@@ -1,15 +1,19 @@
 {
-  "name": "teste",
+  "name": "scope-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "application-scope is a javascript library that creates an scope to share information between objects.",
+  "main": "scope.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogolmenezes/scope.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "restify": "^7.2.1",
-    "uuid": "^3.3.2"
-  }
+  "bugs": {
+    "url": "https://github.com/diogolmenezes/scope/issues"
+  },
+  "homepage": "https://github.com/diogolmenezes/scope#readme"
 }

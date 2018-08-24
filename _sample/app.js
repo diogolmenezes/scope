@@ -12,12 +12,3 @@ app.get('/', controller.work.bind(controller));
 
 app.listen(3000, () => {
 });
-
-
-
-
-class Binder {
-    static bind(req, res, next) {
-        return con
-    }
-}
