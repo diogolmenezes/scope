@@ -91,6 +91,6 @@ Add some scope information and retreive all the data:
 
 # Sample
 
-You can find our working sample at _sample folder of source code;
+You can find our working sample at [_sample](https://github.com/diogolmenezes/scope/blob/master/_sample) folder of source code;
 
-[Scope](https://github.com/diogolmenezes/scope/blob/master/_sample/sample.png)
+![Scope](https://github.com/diogolmenezes/scope/blob/master/_sample/sample.png)

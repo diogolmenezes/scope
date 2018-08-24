@@ -1,7 +1,17 @@
 {
   "name": "scope-js",
   "version": "1.0.0",
-  "description": "application-scope is a javascript library that creates an scope to share information between objects.",
+  "description": "ScopeJs is a js lib that creates an scope to share information between objects. One of best uses of scope is to share information on request lifecicle..",
+  "keywords": [
+    "request",
+    "scope",
+    "request"
+  ],
+  "tags": [
+    "request",
+    "scope",
+    "request"
+  ],
   "main": "scope.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/diogolmenezes/scope.git"
   },
-  "author": "",
+  "author": "Diogo Menezes <diogolmenezes@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/diogolmenezes/scope/issues"
