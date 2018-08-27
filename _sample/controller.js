@@ -8,7 +8,7 @@ class Controller extends Scope {
     }
 
     work(req, res, next) {
-        console.log('Coming in of controller  =>', JSON.stringify(this.scope));
+        console.log('Coming in on controller  =>', JSON.stringify(this.scope));
 
         this.service = new Service();
         this.addScope({ id: req.id });

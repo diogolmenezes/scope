@@ -11,4 +11,5 @@ app.use((req, res, next) => {
 app.get('/', controller.work.bind(controller));
 
 app.listen(3000, () => {
+    console.log('Nice! We are listening at http://localhost:3000');
 });
