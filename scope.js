@@ -1,4 +1,7 @@
+// Help.: https://github.com/diogolmenezes/scope/
 class Scope {
+    
+    // add on scope
     addScope(value) {
         this.scope = this.scope || { _chain: [] };
                        
@@ -6,12 +9,12 @@ class Scope {
             Object.assign(this.scope, value);
         } 
 
-        // coloca o objeto na chain caso ainda não esteja
+        // put the objsct in the chain if its not
         const object        = this.__proto__.constructor.name;
         const itsInTheChain = this.scope._chain.includes(object);   
         
         if (!itsInTheChain) {            
-            // varre todas as propriedades que herdam de BaseClass e repassa o escopo
+            // scans all properties that inherit from Scope and passes the scope
             const scopableProperties = Object.keys(this).filter(x => this[x] instanceof Scope);
 
             scopableProperties.map(property => {
@@ -23,6 +26,7 @@ class Scope {
         }              
     }
 
+    // remove from scope
     removeScope(name) {
         delete this.scope[name];
     }
